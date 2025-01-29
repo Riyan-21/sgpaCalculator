@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+</head>
+<link rel="stylesheet" href="SGPAC.css">
+<body id="body">
+    <div class="header">
+        <p>A simple SGPA calculator</p>
+    </div>
+    <div class="hide2" id="countHolder">
+        <p class="hide2" id="nameHeading" style="cursor: default;">Enter your name</p>
+        <input type="text" class="hide2" id="name" placeholder="  Eg. Peter Parker">
+        <p class="hide2" id="deptHeading" style="cursor: default;">Enter your department</p>
+        <input type="text" class="hide2" id="dept" placeholder="  Eg. ECE">
+        <p class="hide2" id="countHeading" style="cursor: default;">Enter total numbers of subjects</p>
+        <div id="hldr">
+            <input type="number" name="count" class="hide2" id="count" placeholder="  Eg. 6">
+            <button onclick="step1()" class="hide2" id="countButton" style="cursor: pointer;">Submit</button>
+        </div>    
+    </div>
+    <div id="nameHolder"></div>
+    <div id="tableHolder">
+        <div id="Subject"><h2 id="sbh" class="hh" style="cursor: default;">Subjects</h2></div>
+        <div id="Credit"><h2 id="crh" class="hh" style="cursor: default;">Credits</h2></div>
+        <div id="Point"><h2 id="poh" class="hh" style="cursor: default;">Points</h2></div>
+        <div id="creditPoints"><h2 id="cph" class="hh">Credit Points</h2></div>
+    </div>
+    <div id="resHolder" style="cursor: default;">
+        <div id="hldr">
+        <p id="res1" ></p>
+        <p id="res2"></p>
+        </div>
+        <p id="res3"></p>
+    </div>
+    <div class="footer">
+        <p>This page is made by <a target="blank" href="http://linkedin.com/in/riyan-kundu">Riyan</a></p>
+    </div>
+<script src="SGPAC.js"></script>
+</body>
+</html>
