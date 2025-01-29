@@ -52,7 +52,7 @@ function step1(){
     newButton.setAttribute("id", "calcbtn");
     newButton.innerText = "Submit";
     newButton.setAttribute("onClick", "calculation()");
-    document.getElementById("body").appendChild(newButton);
+    document.getElementById("resHolder").appendChild(newButton);
    
 };
 
